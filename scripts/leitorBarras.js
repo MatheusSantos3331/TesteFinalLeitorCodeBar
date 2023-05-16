@@ -5,7 +5,6 @@ var beepSound = new Audio("barcode.wav");
       inputStream: {
         name: "Live",
         type: "LiveStream",
-        target: document.querySelector('#camera'),
         constraints: {
           width: 300,
           height: 150,
