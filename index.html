@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Produtos</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_login.css">
+    <link rel="stylesheet" href="css/style-main.css">
+    
+</head>
+<body>
+    <header class="container">
+        <div class="imagem-logo">
+            <a class="imagem-header" href="login.html"><img src="imgs/athena-software-logo@2x.png" alt="Imagem logo Athenas Software"></a>
+        </div>
+    </header>
+    <main class="container-main">
+        <div class="opcoes">
+            <h2>Escolha a opção de verificação</h2>
+            <button  onclick="mostrarCamera()">Codigo de barras</button>
+            <button onclick="mostrarInputs('codigoInterno')">Código interno</button>
+  <button onclick="mostrarInputs('nomeProduto')">Nome</button>
+
+        </div>
+        <div class="resultados">
+            <h2>Verificar</h2>
+            <div id="resultado"></div>
+            <div  id="camera" style="display: none;"></div>
+            <div class="codigo-interno">
+                <input id="codigoInternoInput" class="escondido" placeholder="Digite o Código Interno do Produto" type="text" style="display: none;">
+                <button id="codigoInternoButton" class="escondido btn-pesquisa" style="display: none;">Pesquisar</button>
+              </div>
+              
+              <div class="nome-produto">
+                <input id="nomeProdutoInput" class="escondido" placeholder="Digite o nome do produto" type="text" style="display: none;">
+                <button  id="nomeProdutoButton" class="btn-pesquisa escondido" style="display: none">Pesquisar</button>
+              </div>
+
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+    <script src="scripts/leitorBarras.js"></script>
+    <script src="scripts/mostrarElementos.js"></script>
+</body>
+</html>

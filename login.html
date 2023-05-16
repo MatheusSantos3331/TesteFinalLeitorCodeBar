@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Produtos</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_login.css">
+</head>
+<body>
+    <header class="container">
+        <div class="imagem-logo">
+            <a class="imagem-header" href="login.html"><img src="imgs/athena-software-logo@2x.png" alt="Imagem logo Athenas Software"></a>
+        </div>
+    </header>
+    <div class="container-login">
+        <form action="login-cliente">
+            <div class="titulo-cadastro">
+                <h2>Entre com seu login e senha</h2>
+            </div>
+            <div class="input-form">
+                <input id="email" type="text" class="input-forms" placeholder="Email de usuario" required>
+                <input id="senha" type="password" class="input-forms" placeholder="Senha de usuario" required>
+            </div>
+            <div class="btn-login">
+                <button onclick="verificarCredenciais()" class="botoes-cadastro" id="btn2">Login</button>
+                <a href="https://athenasoftware.com.br" target="_blank" class="botoes-cadastro" id="btn1">Cancelar cadastro</a>
+            </div>
+    
+        </form>
+    </div>
+    <script src="scripts/acionaBtn.js"></script>
+    <script src="scripts/senha.js"></script>
+</body>
+</html>

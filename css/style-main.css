@@ -1,0 +1,64 @@
+.container-main{
+    background-color:blue ;
+    display: flex;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.opcoes {
+    background-color: white;
+    border: 2px solid rgba(51, 51, 51, 0.04);
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04);
+    display: flex;
+    flex: 20%;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.opcoes>button {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color:  #BB0000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
+#camera{
+    text-align: center;
+}
+.resultados{
+    background-color: white;
+    text-align: center;
+    flex: 80%;
+}
+.codigo-interno, .nome-produto {
+    align-items: center;
+    justify-content: center;
+}
+
+.codigo-interno>input{
+    width: 60%;
+    
+}
+.nome-produto>input{
+    width: 60%;
+}
+.btn-pesquisa{
+    padding: 8px 8px;
+    margin-top: 1%;
+    background-color: #BB0000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32;
+    text-align: center;
+}
+.escondido{
+    text-align: center;
+}

@@ -1,0 +1,71 @@
+.container{
+    background-color: #BB0000;
+}
+.imagem-header{
+    width:338px;
+    height:10px;
+}
+.container-login{
+    background-color: white;
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 62px;
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+    border-radius: 8px;
+}
+.titulo-cadastro > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 10%;
+}
+.login-cliente{
+    display: flex;
+}
+.input-forms{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 30px;
+    margin-bottom: 24px;
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04);
+    border-radius: 4px
+}
+.btn-cadastro{
+    margin-bottom: 50px;
+    border-radius: 4px;
+}
+.botoes-cadastro{
+    width:150px;
+    height: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+}
+#btn2{
+    background-color: grey;
+    color: white;
+    border:1px solid transparent;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+#btn2.btn-preenchido {
+    background-color:  #BB0000;
+    color: white;
+}
+
+#btn1{
+    background-color: var(--branco);
+    border: 2px solid #BB0000;
+    color: #BB0000;
+    margin-right: 10px;
+    padding: 11px 20px;
+    text-decoration: none;
+}
