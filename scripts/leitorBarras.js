@@ -1,13 +1,12 @@
-
-var beepSound = new Audio("barcode.wav");
+var beepSound = new Audio("barcode.wav"); // Substitua 'path/to/beep-sound.mp3' pelo caminho do arquivo de som desejado
 
     Quagga.init({
       inputStream: {
         name: "Live",
         type: "LiveStream",
         constraints: {
-          width: 300,
-          height: 150,
+          width: 640,
+          height: 480,
           facingMode: "environment" // use "user" para a câmera frontal
         }
       },
