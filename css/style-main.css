@@ -68,8 +68,8 @@ h2{
     }
 #camera{
         position: relative;
-        width: 320px; /* largura desejada */
-        height: 240px;
+        width: 300px; /* largura desejada */
+        height: 200px;
         height: auto;
         overflow: hidden;
         text-align: center;

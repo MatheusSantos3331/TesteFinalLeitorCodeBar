@@ -1,5 +1,5 @@
 
-var beepSound = new Audio("barcode.wav"); // Substitua 'path/to/beep-sound.mp3' pelo caminho do arquivo de som desejado
+var beepSound = new Audio("barcode.wav");
 
     Quagga.init({
       inputStream: {
