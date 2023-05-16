@@ -66,6 +66,27 @@ h2{
       padding: 5px;
       margin-top: 10px;
     }
+    #interactive.viewport {
+        position: relative;
+        width: 320px; /* largura desejada */
+        height: 240px;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+      }
+  
+      #interactive.viewport > canvas,
+      #interactive.viewport > video {
+        max-width: 100%;
+        width: 100%;
+      }
+  
+      #result {
+        border: solid;
+        border-width: 1px;
+        padding: 5px;
+        margin-top: 10px;
+      }
 
 @media screen and (max-width: 800px) {
     .body{
