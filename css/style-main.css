@@ -66,14 +66,7 @@ h2{
       padding: 5px;
       margin-top: 10px;
     }
-#camera{
-        position: relative;
-        width: 300px; /* largura desejada */
-        height: 150px;
-        height: auto;
-        overflow: hidden;
-        text-align: center;
-}
+
 @media screen and (max-width: 800px) {
     .body{
         width: 100%;
