@@ -7,8 +7,8 @@ var beepSound = new Audio("barcode.wav");
         type: "LiveStream",
         target: document.querySelector('#camera'),
         constraints: {
-          width: 640,
-          height: 480,
+          width: 300,
+          height: 150,
           facingMode: "environment" // use "user" para a câmera frontal
         }
       },
