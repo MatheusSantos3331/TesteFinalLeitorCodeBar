@@ -94,9 +94,6 @@ h2{
         margin-bottom: 10%;
         text-align: center;
     }
-    #camera{
-        text-align: center;
-    }
     .resultados {
         border-top:5px solid #BB0000;
         margin-top: 15px;
@@ -112,6 +109,5 @@ h2{
     }
     .codigo-interno>input,.nome-produto>input{
         width: 250px;
-
     }
 }
