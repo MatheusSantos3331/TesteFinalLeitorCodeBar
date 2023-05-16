@@ -69,3 +69,17 @@
     padding: 11px 20px;
     text-decoration: none;
 }
+@media screen and (max-width: 800px){
+    #btn1{
+        padding: 6px 16px;
+        margin-left: 10px;
+    }
+    .botoes-cadastro{
+        width:90px;
+        height: 35px;
+    }
+}
+.imagem-header > img {
+    width: 150px;
+    height: 60px;
+}
