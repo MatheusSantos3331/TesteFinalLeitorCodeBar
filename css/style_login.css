@@ -78,15 +78,16 @@
         width:75px;
         height: 35px;
     }
+    .imagem-header > img {
+        width: 150px;
+        height: 60px;
+    }
+    .container-login{
+        width: 100%;
+        margin-top: 1%;
+    }
+    .titulo-cadastro>h2{
+        font-size: 1.3rem;
+    }
 }
-.imagem-header > img {
-    width: 150px;
-    height: 60px;
-}
-.container-login{
-    width: 100%;
-    margin-top: 1%;
-}
-.titulo-cadastro>h2{
-    font-size: 1.3rem;
-}
+
