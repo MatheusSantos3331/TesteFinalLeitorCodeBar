@@ -14,7 +14,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 62px;
+    margin-top: 3%;
     box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
     border-radius: 8px;
 }
@@ -71,15 +71,22 @@
 }
 @media screen and (max-width: 800px){
     #btn1{
-        padding: 6px 16px;
+        padding: 4px 12px;
         margin-left: 10px;
     }
     .botoes-cadastro{
-        width:90px;
+        width:75px;
         height: 35px;
     }
 }
 .imagem-header > img {
     width: 150px;
     height: 60px;
+}
+.container-login{
+    width: 100%;
+    margin-top: 1%;
+}
+.titulo-cadastro>h2{
+    font-size: 1.3rem;
 }
